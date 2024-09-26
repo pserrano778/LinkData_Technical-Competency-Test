@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.7",
+    "@jest/globals": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  },
+  "scripts": {
+    "test": "jest ./test",
+    "compile": "tsc --build tsconfig.json"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.25.4"
+  }
+}

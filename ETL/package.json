@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/node": "^22.7.2",
+    "@types/yargs": "^17.0.33"
+  },
+  "scripts": {
+    "compile": "tsc --build tsconfig.json"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "axios": "^1.7.7",
+    "mkdirp": "^3.0.1",
+    "yargs": "^17.7.2"
+  }
+}
